@@ -38,9 +38,11 @@ body {
 
 .count{
   position: absolute;
-  margin-top: 11vw;
-  margin-left: 33vw;
+  margin-top: 9vw;
+  margin-left: 36vw;
 	transform: rotate(45deg);
+	height: 62px;
+	weight: 50px;
 }
 
 .sum{
@@ -59,8 +61,8 @@ body {
 
 .text{
   position: absolute;
-  margin-left: 22vw;
-  margin-top: 13vw;
+  margin-left: 25vw;
+  margin-top: 13.5vw;
 	weight: 600px;
 }
 
@@ -93,13 +95,6 @@ img{
 
 
 
-h1{
-  font-size: 30px;
-  font-family: 'BebasRegular';
-  text-transform: uppercase;
-  color: #06fcfc;
-}
-
 .content{
   display: flex;
   position: relative;
@@ -110,13 +105,13 @@ h1{
 
 .p1, .p2, .p3, .p4, .p5, .p6, .p7{
   position: absolute;
-  font-size: 100px;
+  font-size: 7.5vw;
   font-family: 'Uni Sans Heavy';
   transition: all 0.3s ease;
 
 }
 .p1{
-  margin-top: 170px;
+  margin-top: 11vw;
   animation-duration: 3s;
   animation-name: p1;
   margin-left: 0px;
@@ -134,10 +129,10 @@ to{
 } */
 
 .p2{
-  margin-top: 600px;
+  margin-top: 43.5vw;
   animation-duration: 3s;
   animation-name: kg;
-  margin-left: 480px;
+  margin-left: 33vw;
   color: #06fcfc;
 	transform: rotate(45deg);
 }
@@ -152,10 +147,10 @@ to{
 } */
 
 .p3{
-  margin-top: 420px;
+  margin-top: 30.3vw;
   animation-duration: 3s;
   animation-name: p3;
-  margin-left: -130px;
+  margin-left: -9.3vw;
 	transform: rotate(45deg);
   color: #06fcfc;
 }
@@ -170,10 +165,10 @@ to{
 } */
 
 .p4{
-  margin-top: 280px;
+  margin-top: 28vw;
   animation-duration: 3s;
   animation-name: p4;
-  margin-left: 650px;
+  margin-left: 52vw;
 	color: #02071c;
 	text-shadow: 0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc,0 0 1px #06fcfc;
 	transform: rotate(45deg);
@@ -189,10 +184,10 @@ to{
 } */
 
 .p5{
-  margin-top: 530px;
+  margin-top: 37.6vw;
   animation-duration: 3s;
   animation-name: p5;
-  margin-left: -150px;
+  margin-left: -11.8vw;
 
 	color: #02071c;
 	text-shadow: 0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7,0 0 1px #ff00e7;
@@ -210,7 +205,7 @@ to{
 } */
 
 .p6{
-  margin-top: 315px;
+  margin-top: 21.7vw;
   animation-duration: 3s;
   animation-name: p5;
   margin-left: 170px;
@@ -218,10 +213,10 @@ to{
 	transform: rotate(-45deg);
 }
 .p7{
-  margin-top: 120px;
+  margin-top: 9.9vw;
   animation-duration: 3s;
   animation-name: p5;
-  margin-left: 600px;
+  margin-left: 41.8vw;
   color: #06fcfc;
 	transform: rotate(45deg);
 }
@@ -230,15 +225,15 @@ to{
   position: absolute;
   width: 120px;
   height: 200px;
-  margin-top: 95px;
-  margin-left: 905px;
+  margin-top: 6.5vw;
+  margin-left: 65.5vw;
   animation-name: littletext;
   animation-duration: 10s;
 	transform: rotate(45deg);
 }
 
 .p8{
-  font-size: 12px;
+  font-size: 1vw;
   font-family: 'BebasRegular';
   text-transform: uppercase;
   color: #06fcfc;
@@ -248,14 +243,14 @@ to{
   position: absolute;
   width: 400px;
   height: 100px;
-  margin-top: 410px;
-  margin-left: 670px;
+  margin-top: 30vw;
+  margin-left: 47.8vw;
   animation-name: littletext;
   animation-duration: 10s;
 }
 
 .p9{
-  font-size: 20px;
+  font-size: 1.4vw;
   font-family: 'BebasRegular';
   text-transform: uppercase;
   color: #06fcfc;
@@ -267,8 +262,8 @@ to{
   position: absolute;
   width: 235px;
   height: 100px;
-  margin-top: 665px;
-  margin-left: 410px;
+  margin-top: 47.8vw;
+  margin-left: 28.7vw;
   animation-name: littletext;
   animation-duration: 10s;
 }
@@ -305,8 +300,8 @@ to{
   position: absolute;
   width: 230px;
   height: 100px;
-  margin-top: 35px;
-  margin-left: 525px;
+  margin-top: 5.7vw;
+  margin-left: 39.5vw;
   animation-name: littletext;
   animation-duration: 10s;
 	animation-name: littletext;
@@ -315,7 +310,7 @@ to{
 }
 
 .p12{
-  font-size: 17px;
+  font-size: 1.2vw;
   font-family: 'BebasRegular';
   text-transform: uppercase;
   color: #ff00e7;
@@ -391,4 +386,12 @@ a{
 
 .ticket:hover {
   transform: scale(1.2);
+} */
+
+/* @media (max-width: 1024px){
+	.p1, .p2, .p3, .p4, .p5, .p6, .p7{
+
+	  font-size: 70px;
+
+	}
 } */

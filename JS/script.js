@@ -131,13 +131,13 @@ setInterval(function(){
 },1000)
 }
 
-$( "#p6" ).on("mouseenter", function() {
-  $( "#p6" ).animate({
-
-    left: "+=590",
-    top: "+=-590"
-
-  }, 1000, function() {
-  });
-
-});
+// $( "#p6" ).on("mouseenter", function() {
+//   $( "#p6" ).animate({
+//
+//     left: "+=590",
+//     top: "+=-590"
+//
+//   }, 1000, function() {
+//   });
+//
+// });
