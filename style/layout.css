@@ -114,12 +114,30 @@ img{
   margin-left: 70vw;
 }
 
+@keyframes content {
+from{
+	margin-top: 40px;
+	margin-left: 220px;
+}
+to{
+  margin-top: 40px;
+	margin-left: 100px;
+
+}
+}
+
 .content{
   display: flex;
   position: relative;
   margin-top: 40px;
 	margin-left: 220px;
+	animation-duration: 5s;
+	animation-fill-mode:forwards;
 
+}
+
+.b13 {
+  animation-name: content;
 }
 
 .p1, .p2, .p3, .p4, .p5, .p6, .p7{
@@ -134,7 +152,7 @@ from{
   margin-top: 11vw;
 }
 to{
-  margin-top: 260px;
+  margin-top: 286px;
 	margin-left: 440px;
 	transform: rotate(0deg);
 }
@@ -160,8 +178,8 @@ from{
   margin-left: 33vw;
 }
 to{
-  margin-top: 160px;
-	margin-left: 955px;
+  margin-top: 180px;
+	margin-left: 1020px;
 	transform: rotate(270deg);
 }
 }
@@ -186,9 +204,10 @@ from{
 	margin-left: -9.3vw;
 }
 to{
-  margin-left: -105px;
+  margin-left: -130px;
 	transform: rotate(270deg);
 	animation-fill-mode:forwards;
+	margin-top: 375px;
 
 }
 }
@@ -213,7 +232,7 @@ from{
 	margin-left: 52vw;
 }
 to{
-  margin-top: 450px;
+  margin-top: 495px;
 	margin-left: 520px;
   transform: rotate(0deg);
 }
@@ -240,8 +259,8 @@ from{
 	transform: rotate(45deg);
 }
 to{
-  margin-top: 80px;
-	margin-left: 80px;
+  margin-top: 70px;
+	margin-left: 70px;
   transform: rotate(0deg);
 }
 }
@@ -269,7 +288,7 @@ from{
 	transform: rotate(-45deg);
 }
 to{
-  margin-top: 360px;
+  margin-top: 390px;
 	margin-left: 180px;
   transform: rotate(0deg);
 }
@@ -295,8 +314,8 @@ from{
 	transform: rotate(45deg);
 }
 to{
-  margin-top: 565px;
-	margin-left: 180px;
+  margin-top: 595px;
+	margin-left: 175px;
   transform: rotate(0deg);
 }
 }
@@ -321,9 +340,14 @@ from{
 	transform: rotate(45deg);
 }
 to{
-	margin-top: 495px;
-  margin-left: 990px;
+	margin-top: 505px;
+  margin-left: 1050px;
 	transform: rotate(270deg);
+	width: 180px;
+	height: 160px;
+	font-size: 16px;
+	line-height: 18px;
+
 }
 }
 
@@ -365,9 +389,12 @@ from{
 	transform: rotate(45deg);
 }
 to{
-	margin-top: 80px;
-  margin-left: 600px;
+	margin-top: 70px;
+  margin-left: 630px;
 	transform: rotate(0deg);
+	font-size: 24px;
+	width: 460px;
+	line-height: 25px;
 }
 }
 
@@ -415,6 +442,8 @@ to{
 	margin-top: 180px;
   margin-left: 180px;
 	transform: rotate(0deg);
+	font-size: 20.7px;
+	line-height: 21.8px;
 }
 }
 
@@ -457,9 +486,11 @@ from{
 	transform: rotate(45deg);
 }
 to{
-	margin-top: 460px;
-  margin-left: 185px;
+	margin-top: 500px;
+  margin-left: 180px;
 	transform: rotate(0deg);
+	font-size: 16px;
+	width: 328px;
 }
 }
 
@@ -502,9 +533,12 @@ from{
 	transform: rotate(45deg);
 }
 to{
-	margin-top: 545px;
-  margin-left: 690px;
+	margin-top: 600px;
+  margin-left: 710px;
 	transform: rotate(0deg);
+	font-size: 20px;
+	width: 300px;
+	height: 70px;
 }
 }
 
@@ -542,4 +576,4 @@ to{
 
 .b12 {
   animation-name: anim12;
-}ы
+}

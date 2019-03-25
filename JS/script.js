@@ -47,6 +47,10 @@ $('.p12').on("mouseenter",function() {
   $('.p12').addClass('b12');
 });
 
+$('.content').on("mouseenter",function() {
+  $('.content').addClass('b13');
+});
+
 
 
 
