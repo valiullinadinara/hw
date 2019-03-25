@@ -51,6 +51,10 @@ $('.content').on("mouseenter",function() {
   $('.content').addClass('b13');
 });
 
+$('.welcome').on("mouseenter",function() {
+  $('.welcome').addClass('b14');
+});
+
 
 
 

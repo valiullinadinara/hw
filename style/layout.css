@@ -7,6 +7,7 @@ url('../fonts/UniSansHeavy.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
+
 @font-face {
 			font-family: "BebasRegular";
 			src: url("../fonts/BebasRegular.eot");
@@ -20,6 +21,7 @@ font-style: normal;
 html {
   overflow: scroll;
 }
+
 body {
   width: 100vw;
   height: 100vh;
@@ -35,8 +37,7 @@ body {
 
 }
 
-
-.count{
+.count {
 	display: flex;
   position: fixed;
   margin-top: 9vw;
@@ -58,13 +59,13 @@ to{
 }
 }
 
-.sum{
+.sum {
   color: #06fcfc;
   font-size: 7vw;
   font-family: 'Uni Sans Heavy' ;
 }
 
-.ticket{
+.ticket {
   color: #06fcfc;
   font-size: 4vw;
   font-family: 'Uni Sans Heavy';
@@ -83,7 +84,7 @@ to{
 }
 }
 
-.text{
+.text {
   position: fixed;
 	display: flex;
   margin-left: 25vw;
@@ -91,29 +92,20 @@ to{
 	weight: 600px;
 }
 
-img{
+img {
   position: absolute;
   width: 20vw;
   transform: rotate(45deg);
 }
 
-.img1{
-  margin-top: 36vw;
-  margin-left: 55vw;
-}
-.img2{
-  margin-top: 5vw;
-  margin-left: 70vw;
+.img1 {
+  margin-top: 38vw;
+  margin-left: 56vw;
 }
 
-.img3{
-  margin-top: 27vw;
-  margin-left: 25vw;
-}
-
-.img4{
-  margin-top: 35vw;
-  margin-left: 70vw;
+.img3 {
+  margin-top: 29vw;
+  margin-left: 27vw;
 }
 
 @keyframes content {
@@ -124,11 +116,12 @@ from{
 to{
   margin-top: 40px;
 	margin-left: 100px;
+	background: linear-gradient(to right, #014b68, #010020);
 
 }
 }
 
-.content{
+.content {
   display: flex;
   position: relative;
   margin-top: 40px;
@@ -150,6 +143,7 @@ to{
 	display: flex;
 
 }
+
 @keyframes anim {
 from{
   margin-top: 11vw;
@@ -161,7 +155,7 @@ to{
 }
 }
 
-.p1{
+.p1 {
 	margin-top: 11vw;
 	animation-duration: 5s;
 	/* animation-name: anim; */
@@ -171,6 +165,7 @@ to{
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 }
+
 .b {
   animation-name: anim;
 }
@@ -215,7 +210,7 @@ to{
 }
 }
 
-.p3{
+.p3 {
   margin-top: 30.3vw;
   animation-duration: 5s;
   animation-name: p3;
@@ -241,7 +236,7 @@ to{
 }
 }
 
-.p4{
+.p4 {
   margin-top: 28vw;
   animation-duration: 5s;
   margin-left: 52vw;
@@ -268,7 +263,7 @@ to{
 }
 }
 
-.p5{
+.p5 {
   margin-top: 37.6vw;
   animation-duration: 5s;
   margin-left: -11.8vw;
@@ -297,7 +292,7 @@ to{
 }
 }
 
-.p6{
+.p6 {
   margin-top: 21.7vw;
   animation-duration: 5s;
   margin-left: 170px;
@@ -323,7 +318,7 @@ to{
 }
 }
 
-.p7{
+.p7 {
   margin-top: 9.9vw;
   animation-duration: 5s;
   margin-left: 41.8vw;
@@ -354,17 +349,7 @@ to{
 }
 }
 
-/* .pp8{
-  position: absolute;
-  width: 120px;
-  height: 200px;
-  margin-top: 6.5vw;
-  margin-left: 65.5vw;
-  animation-duration: 5s;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-} */
-.p8{
+.p8 {
 	font-size: 1vw;
 	font-family: 'BebasRegular';
 	text-transform: uppercase;
@@ -385,7 +370,6 @@ to{
   animation-name: anim8;
 }
 
-
 @keyframes anim9 {
 from{
 	margin-top: 30vw;
@@ -402,18 +386,7 @@ to{
 }
 }
 
-/* .pp9{
-  position: absolute;
-  width: 400px;
-  height: 100px;
-  margin-top: 30vw;
-  margin-left: 47.8vw;
-  animation-duration: 5s;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-	animation-name: pp9;
-} */
-.p9{
+.p9 {
 	font-size: 1.4vw;
 	font-family: 'BebasRegular';
 	text-transform: uppercase;
@@ -423,8 +396,8 @@ to{
 	position: fixed;
   width: 400px;
   height: 100px;
-  margin-top: 30vw;
-  margin-left: 47.8vw;
+  margin-top: 30.5vw;
+  margin-left: 48.5vw;
   animation-duration: 5s;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
@@ -435,7 +408,6 @@ to{
 .b9 {
   animation-name: anim9;
 }
-
 
 @keyframes anim10 {
 from{
@@ -452,17 +424,7 @@ to{
 }
 }
 
-/* .pp10{
-  position: absolute;
-  width: 235px;
-  height: 100px;
-  margin-top: 47.8vw;
-  margin-left: 28.7vw;
-  animation-duration: 5s;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-} */
-.p10{
+.p10 {
 	font-size: 15px;
 	font-family: 'BebasRegular';
 	text-transform: uppercase;
@@ -500,17 +462,7 @@ to{
 }
 }
 
-/* .pp11{
-  position: absolute;
-  width: 350px;
-  height: 100px;
-  margin-top: 590px;
-  margin-left: -160px;
-  animation-duration: 5s;
-		transform: rotate(45deg);
-	animation-fill-mode:forwards;
-} */
-.p11{
+.p11 {
 	font-size: 20px;
 	font-family: 'BebasRegular';
 	text-transform: uppercase;
@@ -532,7 +484,6 @@ to{
   animation-name: anim11;
 }
 
-
 @keyframes anim12 {
 from{
 	margin-top: 5.7vw;
@@ -549,19 +500,7 @@ to{
 }
 }
 
-/* .pp12{
-  position: absolute;
-  width: 230px;
-  height: 100px;
-  margin-top: 5.7vw;
-  margin-left: 39.5vw;
-  animation-duration: 5s;
-	text-align: right;
-	line-height: 19px;
-	transform: rotate(45deg);
-	animation-fill-mode:forwards;
-} */
-.p12{
+.p12 {
 	font-size: 1.2vw;
 	font-family: 'BebasRegular';
 	text-transform: uppercase;
@@ -572,8 +511,8 @@ to{
 	position: fixed;
 	width: 230px;
 	height: 100px;
-	margin-top: 5.7vw;
-	margin-left: 39.5vw;
+	margin-top: 5.5vw;
+	margin-left: 38.5vw;
 	animation-duration: 5s;
 	text-align: right;
 	line-height: 19px;
