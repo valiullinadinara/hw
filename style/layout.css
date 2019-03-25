@@ -37,7 +37,8 @@ body {
 
 
 .count{
-  position: absolute;
+	display: flex;
+  position: fixed;
   margin-top: 9vw;
   margin-left: 36vw;
 	transform: rotate(45deg);
@@ -83,7 +84,8 @@ to{
 }
 
 .text{
-  position: absolute;
+  position: fixed;
+	display: flex;
   margin-left: 25vw;
   margin-top: 13.5vw;
 	weight: 600px;
@@ -141,10 +143,11 @@ to{
 }
 
 .p1, .p2, .p3, .p4, .p5, .p6, .p7{
-  position: absolute;
+  position: fixed;
   font-size: 7.5vw;
   font-family: 'Uni Sans Heavy';
   transition: all 0.3s ease;
+	display: flex;
 
 }
 @keyframes anim {
@@ -367,7 +370,7 @@ to{
 	text-transform: uppercase;
 	color: #06fcfc;
 	animation-fill-mode:forwards;
-	position: absolute;
+	position: fixed;
   width: 120px;
   height: 200px;
   margin-top: 6.5vw;
@@ -375,6 +378,7 @@ to{
   animation-duration: 5s;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
+	display: flex;
 }
 
 .b8 {
@@ -416,7 +420,7 @@ to{
 	color: #06fcfc;
 	font-weight:lighter;
 	animation-fill-mode:forwards;
-	position: absolute;
+	position: fixed;
   width: 400px;
   height: 100px;
   margin-top: 30vw;
@@ -425,6 +429,7 @@ to{
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
 	animation-name: pp9;
+	display: flex;
 }
 
 .b9 {
@@ -464,7 +469,7 @@ to{
 	color: #06fcfc;
 	font-weight:lighter;
 	animation-fill-mode:forwards;
-	position: absolute;
+	position: fixed;
 	width: 235px;
 	height: 100px;
 	margin-top: 47.8vw;
@@ -472,6 +477,7 @@ to{
 	animation-duration: 5s;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
+	display: flex;
 }
 
 .b10 {
@@ -511,7 +517,7 @@ to{
 	color: #06fcfc;
 	font-weight:lighter;
 	animation-fill-mode:forwards;
-	position: absolute;
+	position: fixed;
 	width: 350px;
 	height: 100px;
 	margin-top: 590px;
@@ -519,6 +525,7 @@ to{
 	animation-duration: 5s;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
+	display: flex;
 }
 
 .b11 {
@@ -562,7 +569,7 @@ to{
 	font-weight:lighter;
 	animation-name: littletext;
 	animation-fill-mode:forwards;
-	position: absolute;
+	position: fixed;
 	width: 230px;
 	height: 100px;
 	margin-top: 5.7vw;
@@ -572,6 +579,7 @@ to{
 	line-height: 19px;
 	transform: rotate(45deg);
 	animation-fill-mode:forwards;
+	display: flex;
 }
 
 .b12 {
